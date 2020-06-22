@@ -1,0 +1,19 @@
+﻿@inherits LayoutComponentBase
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4 bg-info">
+        <a href="https://docs.microsoft.com/aspnet/" target="_blank" class="text-white">About</a>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+
+    <footer class="text-center">
+        Copyright @DateTime.Now.Year by Ariste Enterprise
+    </footer>
+</div>
